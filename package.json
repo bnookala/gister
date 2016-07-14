@@ -1,0 +1,19 @@
+{
+  "name": "gister",
+  "version": "0.1.0",
+  "description": "Uploads code blocks to github",
+  "bin": {
+    "gister": "./bin/gister.js"
+  },
+  "scripts": {
+    "start": "node ./bin/gister.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bhargav Nookala <nooknb@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "github": "^2.2.0",
+    "inquirer": "^1.1.2",
+    "octonode": "^0.7.6"
+  }
+}
